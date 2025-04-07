@@ -1,10 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good Design Example</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+        header {
+            background-color: #2a9d8f;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+        main {
+            max-width: 700px;
+            margin: 30px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #264653;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .email-box {
+            background-color: #e9f5f4;
+            padding: 15px;
+            border-left: 4px solid #2a9d8f;
+            margin-top: 20px;
+        }
+        .button {
+            display: inline-block;
+            margin-top: 30px;
+            background-color: #2a9d8f;
+            color: white;
+            text-decoration: none;
+            padding: 12px 20px;
+            border-radius: 6px;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #21867a;
+        }
+
+        footer {
+            background-color: #2a9d8f;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-$END$
+<header>
+    <h1>Visual Hierarchy Good Page</h1>
+</header>
+<main>
+    <strong>Participant Information:</strong>
+    <p>You are taking part in a study to explore how design and visual hierarchy affect how users process information on a website. Your responses will be used for academic research purposes only, and all data collected will be anonymous.</p>
+    <p>By continuing to use this page, you consent to participate in the study.</p>
+    <p>Your task is to find our email and then continue to the feedback form.</p>
+
+    <div class="email-box">
+        Email: <strong>andreaspnevmatikas@gmail.com</strong>
+    </div>
+<p>Please Complete this form it to give me feedback</p>
+    <a href="form.html" class="button">Continue to Feedback Form</a>
+</main>
+<footer>Thank you for participating</footer>
 </body>
 </html>
